@@ -1,9 +1,10 @@
 fun main() {
-    val x="my woman"
-    println(x.toUpperCase())
-    println(x.toLowerCase())
-    println(x.capitalize())
-    println(x.decapitalize())
+     val emptyString=""
+    val blankString=" "
+    println(emptyString.isEmpty())
+    println(emptyString.isBlank())
+    println(blankString.isBlank())
+    println(blankString.isEmpty())
 }
 
 
