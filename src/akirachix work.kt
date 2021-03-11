@@ -1,8 +1,10 @@
 fun main() {
-    val school=" Mwangaza School "
-    println(school.trimStart())
-    println(school.trimEnd())
-    println(school.trim())
+    val market="Markiti"
+    println(market.startsWith("M"))
+    println(market.endsWith("i"))
+    println(market.endsWith("k"))
+
+
 }
 
 
