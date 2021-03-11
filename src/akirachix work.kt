@@ -1,10 +1,8 @@
 fun main() {
-     val emptyString=""
-    val blankString=" "
-    println(emptyString.isEmpty())
-    println(emptyString.isBlank())
-    println(blankString.isBlank())
-    println(blankString.isEmpty())
+    val school=" Mwangaza School "
+    println(school.trimStart())
+    println(school.trimEnd())
+    println(school.trim())
 }
 
 
